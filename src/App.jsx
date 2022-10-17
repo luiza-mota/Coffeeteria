@@ -1,10 +1,9 @@
 
-function App() {
+import Welcome from "./components/Welcome"
 
-  return (
-    <div className="App">
-      
-    </div>
+const App = () => {
+  return (    
+    <Welcome />  
   )
 }
 
